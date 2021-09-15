@@ -1,0 +1,24 @@
+#no-movile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: var(--yellow);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
+@media screen and (max-width: 840px) {
+  #no-mobile {
+    display: none;
+  }
+}
+/* 스크롤불가설정 */
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
